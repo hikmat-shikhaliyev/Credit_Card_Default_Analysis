@@ -6,17 +6,23 @@ This project aims to predict the 'default' status using machine learning models.
 The dataset includes features for predicting the 'default' status. Preprocessing steps have been applied to prepare the data for model training.
 ### Preprocessing
 Handling Missing Values
-Imputation: Addressed missing values in numerical features using appropriate imputation techniques like mean or median.
-Categorical Imputation: Filled missing categorical values with the mode, ensuring data integrity and consistency.
-Feature Engineering
-Weight of Evidence (WOE) Transformation
-Categorical Variables Transformation: Implemented Weight of Evidence (WOE) transformation on categorical variables specifically for the CatBoost model.
-Handling Outliers
-Outlier Detection: Identified and addressed outliers using statistical methods or domain knowledge to prevent them from adversely affecting the model.
-Scaling
-Numerical Feature Scaling: Applied feature scaling to numerical features, ensuring a consistent scale for improved model convergence.
+#### Imputation: 
+Addressed missing values in numerical features using appropriate imputation techniques like mean or median.
+#### Categorical Imputation: 
+Filled missing categorical values with the mode, ensuring data integrity and consistency.
+#### Feature Engineering
+#### Weight of Evidence (WOE) Transformation
+#### Categorical Variables Transformation: 
+Implemented Weight of Evidence (WOE) transformation on categorical variables specifically for the LogisticRegression model.
+#### Handling Outliers
+#### Outlier Detection: 
+Identified and addressed outliers using statistical methods or domain knowledge to prevent them from adversely affecting the model.
+#### Scaling
+#### Numerical Feature Scaling: 
+Applied feature scaling to numerical features, ensuring a consistent scale for improved model convergence.
 Encoding
-One-Hot Encoding: Employed one-hot encoding for categorical variables, converting them into a format suitable for machine learning models.
+#### One-Hot Encoding: 
+Employed one-hot encoding for categorical variables, converting them into a format suitable for machine learning models.
 # Models
 #### CatBoost Classifier
 Trained and evaluated a CatBoost classifier with default settings.
